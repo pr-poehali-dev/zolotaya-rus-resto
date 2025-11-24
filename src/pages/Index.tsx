@@ -13,68 +13,67 @@ const menuItems = {
     { name: 'Блины с мясом (курица, свинина)', price: 1250 },
     { name: 'Блины с щучьей икрой', price: 1650 },
     { name: 'Блины с осетровой икрой', price: 2500 },
-    { name: 'Рыбное ассорти', price: 850 },
-    { name: 'Мясное ассорти', price: 950 }
+    { name: 'Рыбное ассорти', price: 595 },
+    { name: 'Мясное ассорти', price: 850 }
   ],
   salads: [
-    { name: 'Витаминный салат', price: 750 },
-    { name: 'Крестьянский салат', price: 900 },
-    { name: 'Винегрет с сельдью', price: 600 },
-    { name: 'Салат с копченным палтусом', price: 1100 },
-    { name: 'Салат из свежих овощей со сметаной или ароматным маслом', price: 550 },
-    { name: 'Императорский салат (оливье)', price: 600 }
+    { name: 'Витаминный салат', price: 950 },
+    { name: 'Крестьянский салат', price: 750 },
+    { name: 'Винегрет с сельдью', price: 900 },
+    { name: 'Салат с копченным палтусом', price: 800 },
+    { name: 'Салат из свежих овощей со сметаной или ароматным маслом', price: 1100 },
+    { name: 'Императорский салат (оливье)', price: 1150 }
   ],
   soups: [
-    { name: 'Окрошка с говяжьей вырезкой (на квасе/на кефире)', price: 800 },
-    { name: 'Свекольник', price: 700 },
-    { name: 'Щи с сырной краюшкой', price: 750 },
-    { name: 'Уха из двух видов рыб', price: 725 }
+    { name: 'Окрошка с говяжьей вырезкой (на квасе/на кефире)', price: 600 },
+    { name: 'Свекольник', price: 800 },
+    { name: 'Щи с сырной краюшкой', price: 700 },
+    { name: 'Уха из двух видов рыб', price: 750 }
   ],
   hot: [
-    { name: 'Ребра говядины запеченные с картофельным пюре и салатом из капусты', price: 1200 },
-    { name: 'Голень ягненка запеченная с томленными овощами', price: 1300 },
-    { name: 'Мякоть козленка томленная в печи с овощами', price: 900 },
-    { name: 'Котлеты куриные с гороховым пюре', price: 1150 }
+    { name: 'Ребра говядины запеченные с картофельным пюре и салатом из капусты', price: 750 },
+    { name: 'Мякоть козленка томленная в печи с овощами', price: 1250 },
+    { name: 'Котлеты куриные с гороховым пюре', price: 670 }
   ],
   sides: [
-    { name: 'Картофель, запеченный в ароматном масле', price: 450 },
-    { name: 'Картофельное пюре', price: 400 },
-    { name: 'Овощи томленные в томаты', price: 750 },
-    { name: 'Квашенная капуста', price: 570 },
+    { name: 'Картофель, запеченный в ароматном масле', price: 600 },
+    { name: 'Картофельное пюре', price: 500 },
+    { name: 'Овощи томленные в томаты', price: 450 },
+    { name: 'Квашенная капуста', price: 400 },
     { name: 'Томатный соус', price: 250 },
     { name: 'Хренодер', price: 250 },
     { name: 'Сметана', price: 250 },
     { name: 'Тартар', price: 250 }
   ],
   bakery: [
-    { name: 'Пирожок с капустой', price: 300 },
+    { name: 'Пирожок с капустой', price: 600 },
     { name: 'Пирожок с яйцом и зеленым луком', price: 300 },
     { name: 'Пирожок с мясом', price: 300 },
     { name: 'Пирожок с рыбой', price: 300 },
-    { name: 'Ватрушка с яблоками', price: 300 },
-    { name: 'Ватрушка с творогом и вишней', price: 300 }
+    { name: 'Ватрушка с яблоками', price: 600 },
+    { name: 'Ватрушка с творогом и вишней', price: 600 }
   ],
   desserts: [
-    { name: 'Малиновый пирог', price: 650 },
-    { name: 'Таежный десерт', price: 650 },
-    { name: 'Десерт твороженное кольцо', price: 750 },
-    { name: 'Пастила из сушеных яблок', price: 650 },
-    { name: 'Мороженое (клубника, ваниль)', price: 300 }
+    { name: 'Малиновый пирог', price: 900 },
+    { name: 'Таежный десерт', price: 600 },
+    { name: 'Десерт твороженное кольцо', price: 1100 },
+    { name: 'Пастила из сушеных яблок', price: 550 },
+    { name: 'Мороженое (клубника, ваниль)', price: 600 }
   ],
   drinks: [
-    { name: 'Вода архыз (с газом/без газа)', price: 250 },
+    { name: 'Вода архыз (с газом/без газа)', price: 180 },
     { name: 'Компот из сухофруктов', price: 300 },
     { name: 'Морс (брусника/клюква)', price: 300 },
-    { name: 'Квас', price: 400 },
-    { name: 'Чай в ассортименте', price: 450 },
-    { name: 'Кофе (экспрессо, американо, капучино, латте)', price: 230 },
-    { name: 'Лимонад вишня-бергамот', price: 500 },
-    { name: 'Лимонад голубика-черемуха', price: 500 }
+    { name: 'Квас', price: 450 },
+    { name: 'Чай в ассортименте', price: 210 },
+    { name: 'Кофе (экспрессо, американо, капучино, латте)', price: 270 },
+    { name: 'Лимонад вишня-бергамот', price: 900 },
+    { name: 'Лимонад голубика-черемуха', price: 900 }
   ],
   alcohol: [
-    { name: 'Водка чистые росы', price: 550 },
-    { name: 'Настойка (малина/вишня)', price: 480 },
-    { name: 'Пиво шпатен', price: 550 }
+    { name: 'Водка чистые росы', price: 450 },
+    { name: 'Настойка (малина/вишня)', price: 400 },
+    { name: 'Пиво шпатен', price: 1790 }
   ]
 };
 
@@ -91,8 +90,15 @@ const galleryImages = [
   'https://cdn.poehali.dev/projects/8af41a73-87d4-40ce-ac9c-32036c0e8b7e/files/41a2dc4a-c601-4904-958a-59c9ee72fc4a.jpg'
 ];
 
+interface LunchItem {
+  name: string;
+  price: number;
+  category: string;
+}
+
 const Index = () => {
   const [bookingForm, setBookingForm] = useState({ name: '', phone: '', date: '', time: '', guests: '' });
+  const [lunchConstructor, setLunchConstructor] = useState<LunchItem[]>([]);
 
   const scrollToSection = (section: string) => {
     const element = document.getElementById(section);
@@ -107,7 +113,7 @@ const Index = () => {
             <span className="text-3xl">🏛️</span> Золотая Русь
           </h1>
           <div className="hidden md:flex gap-6">
-            {['home', 'menu', 'about', 'gallery', 'reviews', 'delivery', 'booking', 'contacts'].map((section) => (
+            {['home', 'menu', 'constructor', 'about', 'gallery', 'reviews', 'delivery', 'booking', 'contacts'].map((section) => (
               <button
                 key={section}
                 onClick={() => scrollToSection(section)}
@@ -115,6 +121,7 @@ const Index = () => {
               >
                 {section === 'home' ? 'Главная' : 
                  section === 'menu' ? 'Меню' :
+                 section === 'constructor' ? 'Конструктор' :
                  section === 'about' ? 'О нас' :
                  section === 'gallery' ? 'Галерея' :
                  section === 'reviews' ? 'Отзывы' :
@@ -227,7 +234,134 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="about" className="py-20 px-4 bg-card/30">
+      <section id="constructor" className="py-20 px-4 bg-card/30">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 animate-fade-in">
+            <p className="text-primary text-sm uppercase tracking-widest mb-2">Кулинарный конструктор</p>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">Создай свой обед</h2>
+            <p className="text-muted-foreground max-w-2xl mx-auto">
+              Выбери блюда из разных категорий и составь идеальный обед по своему вкусу
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="md:col-span-2 space-y-6">
+              {Object.entries(menuItems).map(([category, items]) => (
+                <Card key={category} className="bg-card border-primary/20">
+                  <CardContent className="p-6">
+                    <h3 className="text-xl font-bold mb-4 text-primary">
+                      {category === 'cold' ? 'Холодные закуски' :
+                       category === 'salads' ? 'Салаты' :
+                       category === 'soups' ? 'Супы' :
+                       category === 'hot' ? 'Горячие блюда' :
+                       category === 'sides' ? 'Гарниры' :
+                       category === 'bakery' ? 'Выпечка' :
+                       category === 'desserts' ? 'Десерты' :
+                       category === 'drinks' ? 'Напитки' : 'Алкоголь'}
+                    </h3>
+                    <div className="space-y-2">
+                      {items.map((item, idx) => (
+                        <div 
+                          key={idx}
+                          className="flex justify-between items-center p-3 rounded-lg hover:bg-primary/10 cursor-pointer transition-colors group"
+                          onClick={() => {
+                            setLunchConstructor([...lunchConstructor, { ...item, category }]);
+                          }}
+                        >
+                          <span className="text-sm group-hover:text-primary transition-colors">{item.name}</span>
+                          <div className="flex items-center gap-2">
+                            <span className="font-semibold text-primary">{item.price} ₽</span>
+                            <Icon name="Plus" size={16} className="text-primary opacity-0 group-hover:opacity-100 transition-opacity" />
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
+
+            <div className="md:col-span-1">
+              <Card className="bg-card border-primary/20 sticky top-20">
+                <CardContent className="p-6">
+                  <h3 className="text-xl font-bold mb-4 text-primary flex items-center gap-2">
+                    <Icon name="ShoppingCart" size={20} />
+                    Твой обед
+                  </h3>
+                  
+                  {lunchConstructor.length === 0 ? (
+                    <div className="text-center py-8 text-muted-foreground">
+                      <Icon name="UtensilsCrossed" size={48} className="mx-auto mb-4 opacity-30" />
+                      <p className="text-sm">Выбери блюда из меню слева</p>
+                    </div>
+                  ) : (
+                    <>
+                      <div className="space-y-3 mb-6 max-h-[400px] overflow-y-auto">
+                        {lunchConstructor.map((item, idx) => (
+                          <div key={idx} className="flex justify-between items-start gap-2 p-3 bg-background/50 rounded-lg">
+                            <div className="flex-1">
+                              <p className="text-sm font-medium">{item.name}</p>
+                              <p className="text-xs text-muted-foreground">
+                                {item.category === 'cold' ? 'Холодные закуски' :
+                                 item.category === 'salads' ? 'Салаты' :
+                                 item.category === 'soups' ? 'Супы' :
+                                 item.category === 'hot' ? 'Горячие блюда' :
+                                 item.category === 'sides' ? 'Гарниры' :
+                                 item.category === 'bakery' ? 'Выпечка' :
+                                 item.category === 'desserts' ? 'Десерты' :
+                                 item.category === 'drinks' ? 'Напитки' : 'Алкоголь'}
+                              </p>
+                            </div>
+                            <div className="flex items-center gap-2">
+                              <span className="text-sm font-semibold text-primary whitespace-nowrap">{item.price} ₽</span>
+                              <button
+                                onClick={() => setLunchConstructor(lunchConstructor.filter((_, i) => i !== idx))}
+                                className="text-muted-foreground hover:text-destructive transition-colors"
+                              >
+                                <Icon name="X" size={16} />
+                              </button>
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                      
+                      <div className="border-t border-primary/20 pt-4 mb-4">
+                        <div className="flex justify-between items-center mb-2">
+                          <span className="font-semibold">Количество блюд:</span>
+                          <span className="text-primary">{lunchConstructor.length}</span>
+                        </div>
+                        <div className="flex justify-between items-center text-lg">
+                          <span className="font-bold">Итого:</span>
+                          <span className="text-2xl font-bold text-primary">
+                            {lunchConstructor.reduce((sum, item) => sum + item.price, 0)} ₽
+                          </span>
+                        </div>
+                      </div>
+                      
+                      <div className="space-y-2">
+                        <Button className="w-full bg-accent hover:bg-accent/90">
+                          <Icon name="ShoppingBag" size={18} className="mr-2" />
+                          Оформить заказ
+                        </Button>
+                        <Button 
+                          variant="outline" 
+                          className="w-full border-primary/20"
+                          onClick={() => setLunchConstructor([])}
+                        >
+                          <Icon name="Trash2" size={18} className="mr-2" />
+                          Очистить
+                        </Button>
+                      </div>
+                    </>
+                  )}
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" className="py-20 px-4">
         <div className="container mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in">
